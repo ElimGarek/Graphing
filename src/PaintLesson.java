@@ -16,5 +16,11 @@ public class PaintLesson{
             y = -2*(Math.pow(x-5, 2)) + 6; 
             gp2.drawPoint(x, y);
         }
+        
+        GraphPaper gp3 = new GraphPaper(630, 10);
+        for(double x = -10; x<= 10; x+=.01){
+            y = 2*(Math.sin(0.5*(x-Math.PI)));
+            gp3.drawPoint(x,y);
+        }
     }//end main    
 }// end class
