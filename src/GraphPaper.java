@@ -90,7 +90,7 @@ class GraphPaperCanvas extends Canvas
 	
 	public void paint( Graphics g )
 	{
-		g.drawImage(vm,0,0,this);
+		g.drawImage(vm, 0, 0, this);
 	}
 	
 	public void update(Graphics g) { paint(g); }	// don't clear screen on repaint
