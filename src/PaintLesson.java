@@ -20,6 +20,11 @@ public class PaintLesson{
         for(double x = -10; x<=10 ; x+=.01){
             y = -2*(Math.pow(x-5, 2)) + 6; 
             gp3.drawPoint(x, y);
+        }   
+        GraphPaper gp4 = new GraphPaper(10, 320);
+        for(double x = -10; x<=10 ; x+=.01){
+            y = -2*(Math.pow(x-5, 2)) + 6; 
+            gp4.drawPoint(x, y);
         }
     }//end main    
 }// end class
