@@ -16,18 +16,19 @@ public class PaintLesson{
             y = -2*(Math.pow(x-5, 2)) + 6; 
             gp2.drawPoint(x, y);
         }
-<<<<<<< HEAD
+
         
         GraphPaper gp3 = new GraphPaper(630,10);
         for(double x = -10; x<= 10; x+=.01){
             y = -2*(Math.pow(x-5,2)) + 6;
             gp3.drawPoint(x,y);
-=======
-        GraphPaper gp3 = new GraphPaper(630, 10);
-        for(double x = -10; x<=10 ; x+=.01){
-            y = -2*(Math.pow(x-5, 2)) + 6; 
-            gp3.drawPoint(x, y);
->>>>>>> e5d265ba54ecbc390875ff9221a216a6716b411c
         }
+        GraphPaper gp4 = new GraphPaper(10, 320);
+        for(double x = -10; x<=10 ; x+=.01){
+            y = -2*(Math.pow(x+7, 2)) + 6; 
+            gp4.drawPoint(x, y);
+
+        }
+        
     }//end main    
 }// end class
