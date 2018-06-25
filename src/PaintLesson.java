@@ -7,7 +7,7 @@ public class PaintLesson{
         
         GraphPaper gp1 = new GraphPaper(10, 10);
         for(double x = -10; x<=10; x+= 0.01){
-            y = .75*x + 12;
+            y = -2*x + 12;
             gp1.drawPoint(x,y);
         }
         
